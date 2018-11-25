@@ -1,6 +1,7 @@
 package nagypal.kotlin
 
 fun staticTypingDemo() {
+    printBegin("staticTypingDemo")
     var number = 3
     println("Number=$number")
     println("Number's type='${number::class}'")
@@ -8,4 +9,5 @@ fun staticTypingDemo() {
     //number = "foo"
     number = 42 //but this is
     println("Number=$number")
+    printEnd("staticTypingDemo")
 }
