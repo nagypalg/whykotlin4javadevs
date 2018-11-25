@@ -29,6 +29,8 @@ fun main(args: Array<String>) {
 
     nullSafetyDemo()
 
+    staticTypingDemo()
+
 }
 
 fun infixDemo() {
@@ -71,23 +73,6 @@ fun varargsDemo() {
     val worksMsg = arrayOf("This", "works", "too!")
     log(*worksMsg)
 
-}
-
-fun nullSafetyDemo() {
-    var neverNull: String = "This can't be null"
-
-    //This would not compile
-    //neverNull = null
-
-    var nullable: String? = "You can keep a null here"
-
-    //this works
-    nullable = null
-
-    var inferredNonNull = "The compiler assumes non-null"
-
-    //so this will not compile
-    //inferredNonNull = null
 }
 
 fun printMessageWithPrefix(message: String, prefix: String = "Info") {
