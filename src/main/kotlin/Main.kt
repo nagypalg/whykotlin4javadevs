@@ -1,4 +1,5 @@
-package nagypal
+package nagypal.kotlin
+//look, my package does not have to match the folder
 
 fun main(args: Array<String>) {
     println("Hello, Kotlin!")
