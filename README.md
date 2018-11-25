@@ -9,4 +9,5 @@ Examples why a Java dev should work with Kotlin
 - https://superkotlin.com/resources-learn-kotlin/ - The title says everything: 100+ resources to learn Kotlin the right way. Check out the Kotlin and Java section.
 - https://fabiomsr.github.io/from-java-to-kotlin/ - A nice side-by-side comparison of Java and Kotlin code
 - https://github.com/MindorksOpenSource/from-java-to-kotlin - Another side-by-side Java/Kotlin comparison
+- https://superkotlin.com/kotlin-mega-tutorial/ - A comprehensive tutorial
 
